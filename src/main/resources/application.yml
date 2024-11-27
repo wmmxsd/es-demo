@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: icssas-elastic
+  data:
+    elasticsearch:
+      repositories:
+        enabled: true
+  elasticsearch:
+    uris: http://192.168.213.212:19200
